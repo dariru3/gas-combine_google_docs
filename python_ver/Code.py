@@ -28,5 +28,5 @@ def combine_word_docs(folder_path):
     print("Documents combined successfully into 'combined_doc.docx'")
 
 if __name__ == '__main__':
-    folder_path = config['folder_path']  # replace with your folder path
+    folder_path = config['folder_path']
     combine_word_docs(folder_path)
